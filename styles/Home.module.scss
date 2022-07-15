@@ -1,0 +1,49 @@
+.mainDiv{
+    height: 100vh;
+    width: 100vw;
+    .left{
+        background-color: rgb(64, 143, 224);
+        height: 100%;
+        border-top-right-radius: 15%;
+    }
+    & > div {
+        width: 100%;
+        form{
+            width: 50%;
+        }
+        h2{
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 48px;
+            color: rgb(64, 143, 224)
+        }
+        h3{
+            color: rgb(64, 143, 224);
+            font-size: 14px;
+            font-weight: 400;
+        }
+        p{
+            text-align: center;
+            margin-top: 50px;
+            color: #fff;
+        }
+        input{
+            margin-bottom: 20px;
+            width: 95%;
+        }
+        button {
+            width: 100%;
+            border-radius: 100px;
+            background-color: rgb(64, 143, 224);
+        }
+    }
+    .inputPassword{
+        height: 30px;
+        width: 100%;
+        margin-bottom: 20px;
+        & > div{
+            right: 10px;
+            top: 5px;
+        }
+    }
+}

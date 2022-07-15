@@ -1,0 +1,23 @@
+@import '../../styles/colors.scss';
+
+.mainDiv{
+    width: 25%;
+    border-radius: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 15px;
+    h2{
+        text-align: center;
+    }
+    & > div {
+        padding: 30px;
+    }
+    input{
+        border: 1px solid $main-bolttech;
+        width: 93%;
+    }
+    button{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
