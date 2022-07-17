@@ -1,16 +1,16 @@
 import '../styles/global.scss'
 import type { AppProps } from 'next/app'
-import Header from '../components/header'
+import { AuthProvider } from '../contexts/AuthContext'
 import { useRouter } from 'next/router'
-import { AuthProvider } from '../context/auth-provider'
+import Header from '../components/header'
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter()
   return (
-    <>
+    <AuthProvider>
       {router.pathname != '/' && <Header/>}
       <Component {...pageProps} />
-    </>
+    </AuthProvider>
   )
 }
 

@@ -1,5 +1,4 @@
 import { Container } from '@mui/material'
-import React from 'react'
 import CardNewProject from '../components/card-new-project'
 import CardProject from '../components/card-project'
 

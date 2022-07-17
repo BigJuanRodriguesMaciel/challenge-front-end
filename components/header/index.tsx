@@ -1,5 +1,4 @@
 import { Container, Grid } from '@mui/material'
-import React from 'react'
 import Image from 'next/image'
 import styles from './index.module.scss'
 import LogoutIcon from '@mui/icons-material/Logout';
